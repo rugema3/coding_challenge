@@ -1,0 +1,17 @@
+
+>>> count_unique_elements = __import__('unique_counter').count_unique_elements
+
+>>> assert count_unique_elements([2,3,4,2,2,4])
+3
+
+>>> assert count_unique_elements([2, 1, 5, 10, 2])
+4
+
+>>> assert count_unique_elements(['Rugema', 2, 4])
+Traceback (most recent call last):
+...
+TypeError: 
+
+>>> assert count_unique_elements()
+Traceback (most recent call last
+
